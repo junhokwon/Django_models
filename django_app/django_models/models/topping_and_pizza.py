@@ -18,10 +18,10 @@ class Pizza(models.Model):
         # ex) 치즈피자(치즈,토마토소스)
         # return self.name
         #
-        # #toppings_string = ''
-        # # for topping in self.toppings.all():
-        # #     toppings.string += topping.name
-        # #     toppings_string += ','
+        # toppings_string = ''
+        # for topping in self.toppings.all():
+        #      toppings.string += topping.name
+        #      toppings_string += ','
         #
         #
         #
