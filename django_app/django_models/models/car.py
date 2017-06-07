@@ -11,6 +11,8 @@ class Car(models.Model):
     manufacturer = models.ForeignKey(
         'Manufacturer',
         on_delete=models.CASCADE,
+        related_name ='cars',
+        # related_query_name='manufacturer_car',
 
     )
 
